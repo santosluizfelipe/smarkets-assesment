@@ -1,6 +1,4 @@
 import React from "react";
-
-import theme from "../../themes/themes";
 import { CardWrapper, Title, Date, ButtonWrapper, Value, GreenButton, BlueButton } from "./Card.style";
 
 const Card = ({title, date, greenB, blueB, value}) => {
