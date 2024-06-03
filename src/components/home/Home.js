@@ -6,12 +6,14 @@ import { premierLeague, nba, counterStrike, mlb } from "../../mockData/mock";
 import Card from "../card/Card";
 
 const Home = () => {
+  // state variable to handle the first display of the cards
   const [gameSelected, setGameSelected] = useState("Football");
 
   const handleGameSelect = (game) => {
     setGameSelected(game);
   };
 
+  // useEffect to refresh data being displayed
   useEffect(() => {
     console.log(gameSelected);
   }, [gameSelected]);
