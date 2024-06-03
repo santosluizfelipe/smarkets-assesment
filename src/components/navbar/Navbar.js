@@ -9,8 +9,8 @@ function Navbar({ balance }) {
             <Logo>
                 <img src={SmarketsLogo} alt="Logo" />
             </Logo>
-            <IconWrapper style={{color: 'white'}}>
-                <CurrencyPound/>
+            <IconWrapper>
+                <CurrencyPound style={{ fontSize: '15px' }}/>
                 <p>{balance}</p>
             </IconWrapper>
         </NavbarWrapper>

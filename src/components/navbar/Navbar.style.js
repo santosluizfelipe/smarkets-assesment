@@ -25,6 +25,7 @@ export const IconWrapper = styled.div`
     color: white;
     align-items: center;
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     height: 5px;
     width: 5px;
 `;
