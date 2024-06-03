@@ -1,13 +1,18 @@
 import React from 'react';
-import { NavbarWrapper, Logo } from './Navbar.style';
+import { NavbarWrapper, Logo, IconWrapper } from './Navbar.style';
 import SmarketsLogo from '../../images/Smarkets-logo.png'
+import { CurrencyPound } from '@mui/icons-material';
 
-function Navbar() {
+function Navbar({ balance }) {
     return (
         <NavbarWrapper>
             <Logo>
                 <img src={SmarketsLogo} alt="Logo" />
             </Logo>
+            <IconWrapper style={{color: 'white'}}>
+                <CurrencyPound/>
+                <p>{balance}</p>
+            </IconWrapper>
         </NavbarWrapper>
     );
 }
