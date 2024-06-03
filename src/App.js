@@ -6,9 +6,10 @@ import Home from './components/home/Home';
 
 function App() {
   return (
-    <div style={{ backgroundColor: 'red' }}>
-        <Navbar />
-        <Home />
+    <div>
+        {/* <Navbar />
+        <Home /> */}
+        <GettingData />
     </div>
   );
 }
