@@ -6,7 +6,7 @@ import { premierLeague, nba, counterStrike, mlb } from "../../mockData/mock";
 import Card from "../card/Card";
 
 const Home = () => {
-  const [gameSelected, setGameSelected] = useState([]);
+  const [gameSelected, setGameSelected] = useState("Football");
 
   const handleGameSelect = (game) => {
     setGameSelected(game);

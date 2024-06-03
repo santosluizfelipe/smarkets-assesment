@@ -21,7 +21,7 @@ export const HomeWrapper = styled.div`
   position: relative;
   
   @media (min-width: ${breakpoints.desktop}) {
-    padding-bottom: 35%;
+    padding-bottom: 40%;
   }
 
   @media (max-width: ${breakpoints.tablet}) {
